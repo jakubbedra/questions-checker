@@ -1,8 +1,16 @@
 package com.eti.pg.questions.checker.comparator;
 
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class BaseComparatorTest {
+
+    private BaseAnswerComparator comparator;
+
+    @BeforeClass
+    public void init() {
+
+    }
 
     @Test
     public void compareTest_shortAnswer_correct() {
