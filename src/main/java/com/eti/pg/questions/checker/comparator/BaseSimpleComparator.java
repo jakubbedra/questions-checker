@@ -2,6 +2,7 @@ package com.eti.pg.questions.checker.comparator;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Locale;
 import java.util.Set;
 
 public abstract class BaseSimpleComparator implements BaseAnswerComparator {
@@ -13,6 +14,8 @@ public abstract class BaseSimpleComparator implements BaseAnswerComparator {
     @Override
     public double compare(String text1, String text2) {
         // split by spaces
+        String lowerCase1 = text1.toLowerCase(Locale.ROOT);
+        String lowerCase2 = text2.toLowerCase(Locale.ROOT);
         return compare(text1.split(" "), text2.split(" "));
     }
 

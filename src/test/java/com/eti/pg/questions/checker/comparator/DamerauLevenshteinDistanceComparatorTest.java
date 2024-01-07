@@ -1,72 +1,39 @@
 package com.eti.pg.questions.checker.comparator;
 
-import org.junit.FixMethodOrder;
 import org.junit.Test;
-import org.junit.runners.MethodSorters;
 
-@FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public abstract class BaseComparatorTest {
+public class DamerauLevenshteinDistanceComparatorTest {
 
-    protected BaseAnswerComparator comparator;
+    private DamerauLevenshteinDistanceComparator comparator;
 
-    @Test
-    public void compareTest_shortAnswer_correct() {
-        String text1 = "Dzisiaj jest ładna pogoda";
-        String text2 = "Dziś jest ładna pogoda";
-
-        double similarity = comparator.compare(text1, text2);
-
-        System.out.println("compareTest_shortAnswer_correct: " + similarity);
+    public DamerauLevenshteinDistanceComparatorTest() {
+        comparator = new DamerauLevenshteinDistanceComparator();
     }
 
     @Test
-    public void compareTest_shortAnswer_incorrect() {
-        String text1 = "Dzisiaj jest ostatni dzień tygodnia";
-        String text2 = "Dzisiaj nie jest ostatni dzień tygodnia";
+    public void smallAnswer_minorTypo() {
+        String text1 = "oto przykładowa odpowiedź";
+        String text2 = "to przykławoda odpowiedź";
 
-        double similarity = comparator.compare(text1, text2);
+        int distance = comparator.compare(text1, text2);
 
-        System.out.println("compareTest_shortAnswer_incorrect: " + similarity);
+        System.out.println("minor_typo: "+ distance);
     }
 
     @Test
-    public void compareTest_shortAnswer_partiallyCorrect() {
-        String text1 = "Dzisiaj jest ostatni dzień tygodnia";
-        String text2 = "Dzisiaj jest dzień tygodnia";
+    public void smallAnswer_minorMistake() {
+        String text1 = "public static void int Main(string[] args)\n" +
+                "{\n" +
+                "Console.WriteLine(\"HelloWorld!\");" +
+                "}\n";
+        String text2 = "public static void int Main(string arg)\n" +
+                "{\n" +
+                "Console.WriteLine(\"Hello there!\");" +
+                "}\n";
 
-        double similarity = comparator.compare(text1, text2);
+        int distance = comparator.compare(text1, text2);
 
-        System.out.println("compareTest_shortAnswer_partiallyCorrect: " + similarity);
-    }
-
-    @Test
-    public void compareTest_mediumAnswer_correct() {
-        String text1 = "Bezpośrednie wysłanie żądania oznacza natychmiastową odpowiedź, podczas gdy system kolejkowy umożliwia asynchroniczne przetwarzanie danych.";
-        String text2 = "Główna różnica jest taka, że w wywołaniu usługi poprzez system kolejkowy otrzymujemy odpowiedź asynchronicznie, podczas gdy przez bezpośrednie wywołanie usługi otrzymujemy ją odrazu";
-
-        double similarity = comparator.compare(text1, text2);
-
-        System.out.println("compareTest_mediumAnswer_correct: " + similarity);
-    }
-
-    @Test
-    public void compareTest_mediumAnswer_incorrect() {
-        String text1 = "Bezpośrednie wysłanie żądania oznacza natychmiastową odpowiedź, podczas gdy system kolejkowy umożliwia asynchroniczne przetwarzanie danych.";
-        String text2 = "Bezpośrednie wysłanie żądania oznacza asynchroniczną odpowiedź, a zakolejkowanie daje natychmiastową odpowiedź.";
-
-        double similarity = comparator.compare(text1, text2);
-
-        System.out.println("compareTest_mediumAnswer_incorrect: " + similarity);
-    }
-
-    @Test
-    public void compareTest_mediumAnswer_partiallyCorrect() {
-        String text1 = "Bezpośrednie wysłanie żądania oznacza natychmiastową odpowiedź, podczas gdy system kolejkowy umożliwia asynchroniczne przetwarzanie danych.";
-        String text2 = "Zarówno zakolejkowanie jak i wysłanie bezpośredniego żądania skutkuje natychmiastową odpowiedzią.";
-
-        double similarity = comparator.compare(text1, text2);
-
-        System.out.println("compareTest_mediumAnswer_partiallyCorrect: " + similarity);
+        System.out.println("minor_mistake: " + distance);
     }
 
     @Test
@@ -117,7 +84,7 @@ public abstract class BaseComparatorTest {
                 "\n" +
                 "Decyzje dotyczące stylu projektowania i szukanie kompromisowych rozwiązań.";
 
-        double similarity = comparator.compare(text1, text2);
+        double similarity = (double)comparator.compare(text1, text2) / (double)text1.length();
 
         System.out.println("compareTest_longAnswer_correct: " + similarity);
     }
@@ -153,7 +120,7 @@ public abstract class BaseComparatorTest {
                 "Analiza systemowa odpowiada na pytanie co ja to wogóle robię?\n" +
                 "Projekt systemu to sam nie wiem po co jest, nie chce mi się dalej pisać, daj pan tróję i spadam naura.";
 
-        double similarity = comparator.compare(text1, text2);
+        double similarity = (double)comparator.compare(text1, text2) / (double)text1.length();
 
         System.out.println("compareTest_longAnswer_incorrect: " + similarity);
     }
@@ -189,10 +156,9 @@ public abstract class BaseComparatorTest {
                 "e)\n" +
                 "Podczas analizy systemowej zastanawiamy się, \"CO?\". Natomiast podczas tworzenia systemu pytamy \"JAK?\". Analiza koncentruje się na optymalizacji korzyści dla biznesu klienta i sprecyzowaniu wymagań dotyczących systemu. W projekcie systemu podejmowane są decyzje dotyczące struktury, technologii oraz rozwinięcia koncepcji logicznej z analizy.";
 
-        double similarity = comparator.compare(text1, text2);
+        double similarity = (double)comparator.compare(text1, text2) / (double) text1.length();
 
         System.out.println("compareTest_longAnswer_partiallyCorrect: " + similarity);
     }
 
 }
-
