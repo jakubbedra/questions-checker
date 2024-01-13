@@ -1,0 +1,84 @@
+{
+  "answers": [
+    {
+      "question": "System project (logical project, system design):\nd) Explain the definition of system project\ne) Explain how designing does relate to system analysis\nf) Name and briefly describe the activities done in the scope of system project.\n",
+      "sampleAnswer": "d)\nSystem project - the process of defining the system architecture and its elements so that the goals and requirements of the system are met.\n\ne)\nThe analysis answers the question WHAT?\nThe system project answers the question HOW?\nAnalysis is focused on maximizing business profit of the client, it identifies and documents system requirements.\nThe system project contains decisions about its target architecture, used technologies and it describes in more detail the logic model from analysis phase.\n\nf)\nDefining architecture: separating the system layers, dividing into subsystems, defining interfaces between the layers and subsystems. \n\nDividing into subsystems: A subsystem realizes a given scope of functions. It represents a behavioral unit in a physical system.\nThe decisions about physical deployment of the system: how will the system be deployed on target devices. Deployment diagrams may be used.\nIdentification and handling of global resources: Resources such as files and data in databases. There are different methods used for synchronized access to the resources, such as guardian objects (slow but safe) or locks (fast, but may cause a deadlock).\nCorner case handling:\n-> Initialization - Transition from inactive state to stabilized running state of the system. \n-> Termination - Transitioning from the running state to inactive state. It includes: freeing the resources, deleting non persisted objects, systematic ending of tasks which are dependent on each other.\n-> Downfall - unexpected system termination. As far as possible, its cause and system state should be described.\n\nChoosing data container management solutions: Data containers might be used as an interface between the systems or as resources enabling shared usage of information.\n\nDecisions on the design style and developing compromise solutions.\n",
+      "correctUserAnswer": "d)\nSystem project is a process of defining system architecture and its elements, so that the system requirements and goal are met.\n\ne)\nSystem project gives an answer to the question “How?”, whereas the system analysis gives an answer to the question “What?”. System project contains decisions on used technologies, target architecture. It is a sort of a more detailed version of the logic model from the analysis phase.\n\nf)\nthe activities done in the scope of system project:\n\n1. Defining architecture: \nSeparating the layers, dividing into subsystems, defining interfaces between the separated layers and subsystems.\n\n2. Dividing into subsystems\nSubsystems is an element of the system realizing a specific set of functions. It represents a behavioral unit in the physical system.\n\n3. Choosing the data container management methods:\nData containers are used as resources for shared information usage, or they can be used as an interface between the systems.\n\n4. Decisions on the style of design and introducing compromise solutions.\n\n5. Decisions about the physical deployment of the system. We define the deployment of the system on the target devices. We might use deployment diagrams.\n\n6. Identification and handling of global resources: \nFor the synchronization of global resource access, for instance files and data from databases we can highlight different methods. Instances of those might be guardian objects (slow, but safe) and locks (fast, but with existing risk of a deadlock).\n\n7. Corner cases must be handled:\nInitialization: Transition from inactive state to sable running state\nTermination: Transition from running state to inactive state. Its scope includes deleting non permanent objects and systematically ending tasks that are dependent on each other.\nDownfall: unexpected termination of the system. We need to describe the causes of such incidents and the system state before the downfall, as detailed as possible.\n",
+      "wrongUserAnswer": "d) The system project means designing the system.\n\ne) System analysis focuses on analyzing an existing system and extracting requirements based on that.\n\nf) The system design process focuses on the definition of required resources in a given organization.\n",
+      "partiallyCorrectUserAnswer": "d) System project includes defining of system architecture and its elements so that the given requirements and goals are met.\n\ne) System analysis answers the question “What?”, focusing on the identification and documentation of business requirements. System project on the other hand, answers the question “HOW?”. It includes decisions about architecture, technologies and about a detailed model.\n\nf) The process of designing the system includes defining its architecture by separating the layers and subsystems, management of global resources access and handling of various corner cases. Additionally, it should include the choice of data management solutions and decisions on the design style.\n",
+      "expertScorePCUA": 60
+    },
+    {
+      "question": "",
+      "sampleAnswer": "",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "",
+      "sampleAnswer": "",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "",
+      "sampleAnswer": "",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "",
+      "sampleAnswer": "",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "",
+      "sampleAnswer": "",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "",
+      "sampleAnswer": "",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "",
+      "sampleAnswer": "",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "",
+      "sampleAnswer": "",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "",
+      "sampleAnswer": "",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "answers": [
+    {
+      "question": "What’s the main difference between calling a service directly and sending a request to a webservice via a queue system?\n",
+      "sampleAnswer": "Sending the request directly results in a direct response, whereas the queue system allows for asynchronous data processing.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "What will be used for signing an email?",
+      "sampleAnswer": "Sender’s certificate, to be exact: its private key.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "What does the image in vector graphics consist of?\n",
+      "sampleAnswer": "In vector graphics, the image consists of lines and creating an image is based on drawing the specified lines.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "What is a scenario in Scrum?\n",
+      "sampleAnswer": "It’s a description of using the system from the problem to its solution.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "In a bluetooth system a single pico network can consist of…\n",
+      "sampleAnswer": "1 master node and 7 active slave nodes.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "What actions (name at least 4 steps) should be taken according to TDD (Test Driven Development), when a software bug was reported?\n",
+      "sampleAnswer": "1. create a test case, which will not be met for a situation specific for the reported bug.\n2. run the tests and make sure they do not pass.\n3. remove the bug from the code.\n4. run the tests and check if they give a positive result, if not, return to step 3.\n5. share the fixed version with the user.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "What actions (please name steps) ensure the correctness of code refactoring?\n",
+      "sampleAnswer": "1. Identification of the smell.\n2. Preparing the automatic tests.\n3. Choosing a refactorization mechanism.\n4. Doing the refactorization\n5. Checking the correctness (if no bugs were introduced)\n6. Repeating until the smell is removed.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Does SLA take into account measurements? If yes, which measurements are used?\n",
+      "sampleAnswer": "SLA (Service Level Agreement) defines, among other things, the method of measurement and reporting. Availability, performance and incident handling are measured.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "The following procedure takes the adjacency matrix of a simple graph.\nfunction X(G[1..n, 1..n], n)\nbegin\n    B=G*G;\n    s=0;\n    for i=1 to n-1 do\n        for j=i+1 to n do\n            if G[i, j]=1 then s=s+B[i, j];\n    return s/3;\nend\n1. What parameter of G does the procedure return?\n2. How should it be modified in order for the execution time to be asymptotically as short as possible?\n",
+      "sampleAnswer": "1. We count all paths of the length of 2, which are found between the vertices that are connected by an edge. At the end we divide the number by 3. That means, this procedure returns the number of triangles (C3) in a graph G. Dividing by 3 is the result of each triangle having 3 of such vertices.\n2. In order for the execution time to be asymptotically as short as possible, we might use a fast matrix multiplication, using for instance Strassen method, which has the complexity of O(n^log{2}(7))\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "System project (logical project, system design):\nd) Explain the definition of system project\ne) Explain how designing does relate to system analysis\nf) Name and briefly describe the activities done in the scope of system project.\n",
+      "sampleAnswer": "d)\nSystem project - the process of defining the system architecture and its elements so that the goals and requirements of the system are met.\n\ne)\nThe analysis answers the question WHAT?\nThe system project answers the question HOW?\nAnalysis is focused on maximizing business profit of the client, it identifies and documents system requirements.\nThe system project contains decisions about its target architecture, used technologies and it describes in more detail the logic model from analysis phase.\n\nf)\nDefining architecture: separating the system layers, dividing into subsystems, defining interfaces between the layers and subsystems. \n\nDividing into subsystems: A subsystem realizes a given scope of functions. It represents a behavioral unit in a physical system.\nThe decisions about physical deployment of the system: how will the system be deployed on target devices. Deployment diagrams may be used.\nIdentification and handling of global resources: Resources such as files and data in databases. There are different methods used for synchronized access to the resources, such as guardian objects (slow but safe) or locks (fast, but may cause a deadlock).\nCorner case handling:\n-> Initialization - Transition from inactive state to stabilized running state of the system. \n-> Termination - Transitioning from the running state to inactive state. It includes: freeing the resources, deleting non persisted objects, systematic ending of tasks which are dependent on each other.\n-> Downfall - unexpected system termination. As far as possible, its cause and system state should be described.\n\nChoosing data container management solutions: Data containers might be used as an interface between the systems or as resources enabling shared usage of information.\n\nDecisions on the design style and developing compromise solutions.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    }
+  ]
+}

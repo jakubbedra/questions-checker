@@ -1,0 +1,83 @@
+{
+  "answers": [
+    {
+      "question": "Jaka jest główna różnica między wywołaniem usługi poprzez bezpośrednie wysłanie żądania do webserwisu usługi, a poprzez system kolejkowy?\n",
+      "sampleAnswer": "Bezpośrednie wysłanie żądania oznacza natychmiastową odpowiedź, podczas gdy system kolejkowy umożliwia asynchroniczne przetwarzanie danych.\n",
+      "correctUserAnswer": "Bezpośrednie wysłanie żądania daje nam natychmiastową odpowiedź a zakolejkowanie umożliwia asynchroniczne przetwarzanie danych.",
+      "wrongUserAnswer": "Bezpośrednie wysłanie żądania umożliwia asynchroniczne przetwarzanie danych a zakolejkowanie daje nam natychmiastową odpowiedź.\n",
+      "partiallyCorrectUserAnswer": "Bezpośrednie wysłanie żądania daje nam natychmiastową odpowiedź.\n",
+      "expertScorePCUA": 50
+    },
+    {
+      "question": "Co zostanie wykorzystane do podpisania wiadomości e-mail?\n",
+      "sampleAnswer": "certyfikat nadawcy, a konkretnie klucz prywatny nadawcy\n",
+      "correctUserAnswer": "Zostanie wykorzystany certyfikat nadawcy, a dokładnie klucz prywatny.\n",
+      "wrongUserAnswer": "Zostanie wykorzystany certyfikat urzędu certyfikacji.\n",
+      "partiallyCorrectUserAnswer": "Zostanie wykorzystany klucz publiczny nadawcy.\n",
+      "expertScorePCUA": 50
+    },
+    {
+      "question": "Z czego składa się obraz w grafice wektorowej?\n",
+      "sampleAnswer": "W grafice wektorowej obraz składa się z odcinków i tworzenie obrazu polega na rysowaniu poszczególnych odcinków.",
+      "correctUserAnswer": "Obraz składa się z odcinków, na podstawie których odbywa się tworzenie obrazu.\n",
+      "wrongUserAnswer": "W grafice wektorowej obraz składa się z pixeli i wyznaczanie obrazu polega na wybieraniu koloru dla poszczególnego obiektu.",
+      "partiallyCorrectUserAnswer": "Obraz składa się z odcinków.",
+      "expertScorePCUA": 50
+    },
+    {
+      "question": "Jeśli dipol znajduje się w jednorodnym polu elektrycznym, działają na niego siły, które…\n",
+      "sampleAnswer": "Dążą do ustawienia wektora momentu dipolowego tak, aby jego zwrot był równoległy do wektora natężenia pola elektrycznego.\n",
+      "correctUserAnswer": "dążą do ustawienia wektora momentu dipolowego, aby jego zwrot stał się równoległy do wektora natężenia pola elektrycznego.\n",
+      "wrongUserAnswer": "dążą do ustawienia wektora momentu dipolowego, aby jego zwrot stał się prostopadły do wektora natężenia pola elektrycznego.\n",
+      "partiallyCorrectUserAnswer": "Dążą do ustawienia wektora momentu dipolowego w określony sposób.\n",
+      "expertScorePCUA": 30
+    },
+    {
+      "question": "Mapy w dużej skali najlepiej nadają się do odwzorowania jakich obszarów?\n",
+      "sampleAnswer": "Najbardziej nadają się do odwzorowania miast.\n",
+      "correctUserAnswer": "Do odwzorowania miast.\n",
+      "wrongUserAnswer": "Do odwzorowania kontynentów.\n",
+      "partiallyCorrectUserAnswer": "Do odwzorowania małych obszarów.\n",
+      "expertScorePCUA": 70
+    },{
+      "question": "Za co odpowiada kierownik projektu w metodyce RUP?\n",
+      "sampleAnswer": "Odpowiada za analizę zagrożeń i rejestr ryzyka.\n",
+      "correctUserAnswer": "Odpowiada za analizowanie zagrożeń oraz rejestr ryzyka.\n",
+      "wrongUserAnswer": "Odpowiada za wdrożenie produktu.\n",
+      "partiallyCorrectUserAnswer": "Odpowiada za analizę zagrożeń.\n",
+      "expertScorePCUA": 50
+    },
+    {
+      "question": "Czym jest scenariusz w metodyce Scrum?\n",
+      "sampleAnswer": "Jest to opis użytkowania systemu od problemu do rozwiązania.\n",
+      "correctUserAnswer": "Jest opisem użytkowania systemu począwszy od problemu do jego rozwiązania.\n",
+      "wrongUserAnswer": "Jest przypadkiem użycia.\n",
+      "partiallyCorrectUserAnswer": "Jest opisem użytkowania systemu.\n",
+      "expertScorePCUA": 60
+    },
+    {
+      "question": "Jak powinno wyglądać spotkanie Scrum?\n",
+      "sampleAnswer": "Powinno odbywać się na stojąco i być krótkie.\n",
+      "correctUserAnswer": "Powinno być krótkie oraz odbywać się na stojąco.\n",
+      "wrongUserAnswer": "Powinno slużyć rozwiazywaniu szczegółowych problemow.\n",
+      "partiallyCorrectUserAnswer": "Powinno odbywać się na stojąco i często może być długie.\n",
+      "expertScorePCUA": 40
+    },
+    {
+      "question": "W systemie bluetooth pojedyncza pikosieć może składać się z…\n",
+      "sampleAnswer": "1 węzła typu master i 7 aktywnych węzłów typu slave\n",
+      "correctUserAnswer": "Jednego węzła master i siedmiu typu slave.\n",
+      "wrongUserAnswer": "7 węzłów typu master i 255 aktywnych węzłów typu slave.\n",
+      "partiallyCorrectUserAnswer": "Jednego węzłą master i kulku aktywnych węzłów typu slave.\n",
+      "expertScorePCUA": 80
+    },
+    {
+      "question": "Na co pozwala histogram obrazu?\n",
+      "sampleAnswer": "Pozwala na redukcję liczby barw występujących w obrazie.\n",
+      "correctUserAnswer": "Umożliwia redukcję liczby barw w obrazie.\n",
+      "wrongUserAnswer": "Pozwala na odszumianie obrazu.\n",
+      "partiallyCorrectUserAnswer": "Umożliwia modyfikację liczby barw w obrazie.\n",
+      "expertScorePCUA": 40
+    }
+  ]
+}

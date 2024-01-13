@@ -1,0 +1,84 @@
+{
+  "answers": [
+    {
+      "question": "Projekt systemu (projekt logiczny, system design):\nd) Wyjaśnić pojęcie projektu systemu\ne) Wyjaśnić jak ma się projektowanie do analizy systemowej\nf) Wymienić i krótko opisać czynności wykonywane w ramach projektu systemu\n",
+      "sampleAnswer": "d)\nProjekt systemu - proces definiowania architektury systemu oraz jej elementów aby zostały spełnione cele i wymagania postawione przed tym systemem.\n\ne)\nAnaliza systemowa odpowiada na pytanie CO?\nProjekt systemu odpowiada na pytanie JAK?\nAnaliza ukierunkowana jest na maksymalizację korzyści biznesowych klienta, identyfikuje i dokumentuje wymagania względem systemu.\nProjekt systemu zawiera decyzje odnośnie docelowej jego architektury, użytych technologii oraz uszczegóławia model logiczny z fazy analizy.\n\nf)\nOkreślenie architektury: Wyodrębnienie warstw systemu, podział na podsystemy, określenie interfejsów między warstwami i podsystemami.\n\nPodział na podsystemy: Podsystem realizuje określony zestaw funkcji, reprezentuje behawioralną jednostkę w fizycznym systemie.\nDecyzje o fizycznym rozmieszczeniu systemu: Jak system będzie rozmieszczony na docelowym sprzęcie. Stosuje się do nich diagramy wdrożenia.\nIdentyfikacja i obsługa dostępu do zasobów globalnych: Zasoby takie jak pliki i dane w bazie danych. Są różne metody synchronizujące do nich dostęp takie jak guardian objects (wolne ale bezpieczne) czy locks (szybkie ale mogą spowodować deadlock).\nObsługa warunków granicznych:\n-> Inicjalizacja - Przejście od stanu spoczynku do ustabilizowanego stanu pracy systemu.\n-> Zakończenie - Przejście ze stanu pracy do stanu spoczynku. W jego skład wchodzą: zwolnienie zasobów, usunięcie obiektów nietrwałych, systematyczne kończenie zależnych od siebie zadań\n-> Upadek - nieoczekiwane zakończenie pracy systemu. W miarę możliwości należy opisać jego przyczyny oraz stan systemu.\n\nWybranie podejścia do zarządzania pojemnikami danych: Mogą one służyć jako interfejs pomiędzy systemami lub jako zasoby umożliwiające współużytkowanie informacji.\nDecyzje co do stylu projektowania i wypracowanie rozwiązań kompromisowych.\n",
+      "correctUserAnswer": "d)\nProjekt systemu jest procesem definiowania architektury systemu i jej elementów, żeby spełnione były cele i wymagania przed nim postawione.\n\ne)\nProjekt systemu odpowiada na pytanie \"Jak?\", natomiast analiza systemowa odpowiada na pytanie \"Co?\". W projekcie systemu zawarte są decyzje odnośnie wykorzystanych technologii, docelowej architektury. Stanowi on uszczegółownienie logicznego modelu z fazy analizy.\n\n\nf)\nczynności wykonywane w ramach projektu systemu:\n\n1. Określenie architektury: \nWyodrębnienie warst, podział na podsystemy, określenie interfejsów między wyodrębnionymi warstwami oraz podsystemami.\n\n2. Podział na podsystemy: \nPodsystem to element systemu realizujący konkretny zestaw funkcji. Reprezentuje on behawioralną jednostkę w fizycznym systemie.\n\n3. Wybranie podejścia do zarządzania pojemnikami danych: \nPojemniki danych  służą jako zasoby umożliwiające współużytkowanie informacji, bądź też mogą one zostać wykorzystane jako interfejs między systemami.\n\n4. Decyzje co do stylu projektowania i wypracowanie rozwiązań kompromisowych.\n\n5. Decyzje odnośnie fizycznego rozmieszczenia systemu. Określamy rozmieszczenie systemu na docelowym sprzęcie. Można wykorzystać w tym celu diagramy wdrożenia.\n\n6. Identyfikacja i obsługa dostępu do zasobów globalnych: Na synchronizację dostępu do zasobów, na przykład plików i danych w bazie danych wyróżniamy różne metody. Przykładami mogą być guardian objects (są wolne, ale bezpieczne) albo locks (szybkie ale istnieje ryzyko deadlocku)\n\n7. Trzeba obsłużyć następujące warunki graniczne:\nInicjalizacja: Przejście od stanu spoczynku do ustabilizowanego stanu pracy\nZakończenie: Przejście ze stanu pracy do stanu spoczynku. W jego skład wchodzą zwolnienie zasobów, usunięcie nietrwałych obiektów oraz systematyczne kończenie zależnych od siebie zadań.\nUpadek: nieoczekiwane zakończenie pracy systemu. Należy w miarę możliwości opisać przyczyny wystąpienia takiego zajścia oraz stan systemu przed upadkiem.\n",
+      "wrongUserAnswer": "d) Projekt systemu polega na zaprojektowaniu systemu.\n\ne) Analiza systemowa skupia się na analizowaniu istniejącego systemu i wydobywaniu wymagań na jego podstawie.\n\nf) Proces projektowania systemu skupia się na definicji potrzebnych zasobów w danej organizacji.\n",
+      "partiallyCorrectUserAnswer": "d) Projekt systemu polega na definiowaniu architektury systemu oraz jego elementów w taki sposób, aby spełniały określone cele i wymagania.\n\ne) Analiza systemowa skupia się na odpowiedzi na pytanie \"CO?\", koncentrując się na identyfikacji i dokumentowaniu wymagań biznesowych. Natomiast projekt systemu odpowiada na pytanie \"JAK?\", zawierając decyzje odnośnie architektury, technologii i szczegółowego modelu.\n\nf) Proces projektowania systemu obejmuje określenie jego architektury poprzez wyodrębnienie warstw i podsystemów, określenie interfejsów, decyzje dotyczące rozmieszczenia systemu, zarządzanie dostępem do zasobów globalnych oraz obsługę różnych warunków granicznych. Dodatkowo uwzględnia się wybór podejścia do zarządzania danymi i decyzje dotyczące stylu projektowania.\n",
+      "expertScorePCUA": 60
+    },
+    {
+      "question": "",
+      "sampleAnswer": "",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "",
+      "sampleAnswer": "",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "",
+      "sampleAnswer": "",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "",
+      "sampleAnswer": "",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "",
+      "sampleAnswer": "",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "",
+      "sampleAnswer": "",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "",
+      "sampleAnswer": "",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "",
+      "sampleAnswer": "",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "",
+      "sampleAnswer": "",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    }
+  ]
+}

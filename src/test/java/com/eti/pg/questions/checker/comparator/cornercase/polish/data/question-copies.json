@@ -1,0 +1,84 @@
+{
+  "answers": [
+    {
+      "question": "Jaka jest główna różnica między wywołaniem usługi poprzez bezpośrednie wysłanie żądania do webserwisu usługi, a poprzez system kolejkowy?\n",
+      "sampleAnswer": "Bezpośrednie wysłanie żądania oznacza natychmiastową odpowiedź, podczas gdy system kolejkowy umożliwia asynchroniczne przetwarzanie danych.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Co zostanie wykorzystane do podpisania wiadomości e-mail?\n",
+      "sampleAnswer": "certyfikat nadawcy, a konkretnie klucz prywatny nadawcy\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Z czego składa się obraz w grafice wektorowej?\n",
+      "sampleAnswer": "W grafice wektorowej obraz składa się z odcinków i tworzenie obrazu polega na rysowaniu poszczególnych odcinków.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Czym jest scenariusz w metodyce Scrum?\n",
+      "sampleAnswer": "Jest to opis użytkowania systemu od problemu do rozwiązania.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "W systemie bluetooth pojedyncza pikosieć może składać się z…\n",
+      "sampleAnswer": "1 węzła typu master i 7 aktywnych węzłów typu slave\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Jakie działania (wymień co najmniej 4 kroki) należy wykonać zgodnie z metodą TDD (Test Driven Development), gdy został zgłoszony błąd oprogramowania.",
+      "sampleAnswer": "1. utwórz przypadek testowy, który nie będzie spełniony dla sytuacji specyficznej dla zgłoszonego błędu\n2. uruchom testy i sprawdź, że testy zgłaszają błąd\n3. usuń błąd w kodzie\n4. uruchom testy i sprawdź, czy dają wynik pozytywny, jeżeli tak, to wróć do kroku 3\n5. przekaż poprawioną wersję oprogramowania użytkownikowi\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Jakie działania (proszę wymienić kroki) zapewniają poprawność refaktoryzacji kodu?\n",
+      "sampleAnswer": "1. Identyfikacja brzydkiego zapachu\n2. Przygotowanie testów automatycznych\n3. Wybór mechanizmu refaktoryzacji\n4. Wykonanie refaktoryzacji\n5. Sprawdzenie poprawności (czy nie wprowadzono błędu)\n6. Powtarzanie aż do usunięcia brzydkiego zapachu\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Czy SLA obejmuje pomiary? Jeżeli tak, to jakie pomiary są stosowane?\n",
+      "sampleAnswer": "SLA (Service Level Agreement) określa między innymi sposób pomiaru i raportowania. Mierzone są: dostępność, wydajność i obsługa incydentów.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Poniższa funkcja otrzymuje na wejściu macierz sąsiedztwa grafu prostego:\nfunction X(G[1..n, 1..n], n)\nbegin\n    B=G*G;\n    s=0;\n    for i=1 to n-1 do\n        for j=i+1 to n do\n            if G[i, j]=1 then s=s+B[i, j];\n    return s/3;\nend\n1. Jaki parametr grafu G zwraca powyższa funkcja?\n2. Jak należy ją zmodyfikować, by czas działania był asymptotycznie jak najmniejszy?\n",
+      "sampleAnswer": "1. Zliczamy wszystkie drogi o długości 2, między wierzchołkami połączonymi krawędzią, na końcu dzielimy tą liczbę przez 3. Zatem procedura ta zwraca liczbę trójkątów (C3) w grafie G. Dzielenie przez 3 wynika z tego, że każdy trójkąt ma 3 takie wierzchołki. \n2. Aby czas działania był asymptotycznie jak najmniejszy, można zastosować szybkie mnożenie macierzy, np. wg Strassena, o złożoności O(n^log{2}(7))\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Projekt systemu (projekt logiczny, system design):\nd) Wyjaśnić pojęcie projektu systemu\ne) Wyjaśnić jak ma się projektowanie do analizy systemowej\nf) Wymienić i krótko opisać czynności wykonywane w ramach projektu systemu\n",
+      "sampleAnswer": "d)\nProjekt systemu - proces definiowania architektury systemu oraz jej elementów aby zostały spełnione cele i wymagania postawione przed tym systemem.\n\ne)\nAnaliza systemowa odpowiada na pytanie CO?\nProjekt systemu odpowiada na pytanie JAK?\nAnaliza ukierunkowana jest na maksymalizację korzyści biznesowych klienta, identyfikuje i dokumentuje wymagania względem systemu.\nProjekt systemu zawiera decyzje odnośnie docelowej jego architektury, użytych technologii oraz uszczegóławia model logiczny z fazy analizy.\n\nf)\nOkreślenie architektury: Wyodrębnienie warstw systemu, podział na podsystemy, określenie interfejsów między warstwami i podsystemami.\n\nPodział na podsystemy: Podsystem realizuje określony zestaw funkcji, reprezentuje behawioralną jednostkę w fizycznym systemie.\nDecyzje o fizycznym rozmieszczeniu systemu: Jak system będzie rozmieszczony na docelowym sprzęcie. Stosuje się do nich diagramy wdrożenia.\nIdentyfikacja i obsługa dostępu do zasobów globalnych: Zasoby takie jak pliki i dane w bazie danych. Są różne metody synchronizujące do nich dostęp takie jak guardian objects (wolne ale bezpieczne) czy locks (szybkie ale mogą spowodować deadlock).\nObsługa warunków granicznych:\n-> Inicjalizacja - Przejście od stanu spoczynku do ustabilizowanego stanu pracy systemu.\n-> Zakończenie - Przejście ze stanu pracy do stanu spoczynku. W jego skład wchodzą: zwolnienie zasobów, usunięcie obiektów nietrwałych, systematyczne kończenie zależnych od siebie zadań\n-> Upadek - nieoczekiwane zakończenie pracy systemu. W miarę możliwości należy opisać jego przyczyny oraz stan systemu.\n\nWybranie podejścia do zarządzania pojemnikami danych: Mogą one służyć jako interfejs pomiędzy systemami lub jako zasoby umożliwiające współużytkowanie informacji.\nDecyzje co do stylu projektowania i wypracowanie rozwiązań kompromisowych.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    }
+  ]
+}

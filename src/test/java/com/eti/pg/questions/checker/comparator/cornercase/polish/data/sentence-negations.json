@@ -1,0 +1,84 @@
+{
+  "answers": [
+    {
+      "question": "Kiedy metoda Saaty'ego sprawdza się najlepiej?\n",
+      "sampleAnswer": "Tam, gdzie nie mamy jednego wzorca jakości.",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "Tam, gdzie mamy jeden wzorzec jakości.\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Jaki jest związek mechanizm animacji w VRML na parametry odtwarzanego dźwięku?\n",
+      "sampleAnswer": "nie ma wpływu na parametry odtwarzanego dźwięku\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "ma wpływ na parametry odtwarzanego dźwięku\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Czy kompresja stratna zawsze obniża jakość sygnału?\n",
+      "sampleAnswer": "Tak.",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "Nie.",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Co oznacza widoczny stan interfejsu?\n",
+      "sampleAnswer": "Użytkownik zna bieżący tryb interfejsu.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "Użytkownik nie zna bieżącego trybu interfejsu.\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Ta czynność powinna być zaplanowana na okres, kiedy będziesz miał więcej czasu, ale tak aby była wykonana w terminie, albo delegowana pracownikowi, który jest przygotowany, aby wykonać to zadanie. - to zdanie opisuje którą kategorie Pilności.\n",
+      "sampleAnswer": "Ważne, ale nie pilne.",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "Ważne i pilne.\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Co to jest „prototyp do wyrzucenia”?\n",
+      "sampleAnswer": "Jest to prototyp przygotowany tylko z myślą o identyfikacji wymagań, nie budowie docelowego produktu.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "Jest to prototyp przygotowany nie tylko z myślą o identyfikacji wymagań, ale też o budowie docelowego produktu.\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Którą ze słabości modelu klasycznego ma w założeniu poprawić model V?\n",
+      "sampleAnswer": "Duży koszt naprawy przeoczonego defektu.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "Mały koszt naprawy przeoczonego defektu.",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Zasada „O” w zbiorze dobrych praktyk SOLID mówi o tym, że:\n",
+      "sampleAnswer": "Klasa ma być otwarta na rozszerzenia zamknięta na modyfikacje.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "Klasa ma być otwarta na rozszerzenia i nie ma być zamknięta na modyfikacje.\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Co się dzieje z kosztem utrzymania typowego systemu informatycznego?\n",
+      "sampleAnswer": "Wzrasta wraz z upływem czasu.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "Nie wzrasta wraz z upływem czasu.\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Czy dzisiejszy egzamin był ciężki?\n",
+      "sampleAnswer": "Tak, dzisiejszy egzamin był ciężki.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "Nie, dzisiejszy egzamin nie był ciężki.",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    }
+  ]
+}

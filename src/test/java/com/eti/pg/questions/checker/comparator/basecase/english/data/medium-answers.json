@@ -1,0 +1,84 @@
+{
+  "answers": [
+    {
+      "question": "What actions (name at least 4 steps) should be taken according to TDD (Test Driven Development), when a software bug was reported?\n",
+      "sampleAnswer": "1. create a test case, which will not be met for a situation specific for the reported bug.\n2. run the tests and make sure they do not pass.\n3. remove the bug from the code.\n4. run the tests and check if they give a positive result, if not, return to step 3.\n5. share the fixed version with the user.\n",
+      "correctUserAnswer": "1. Write a test scenario covering the newly found bug.\n2. Make sure it does not pass.\n3. Find and fix the cause of the bug.\n4. Run the test and make sure it passes.\n5. If the test did not pass, we need to make further fixes.\n",
+      "wrongUserAnswer": "Close the ticket, TDD those not take into account bug fixing.\n",
+      "partiallyCorrectUserAnswer": "Write a test with a scenario that covers the newly found bug and make sure it does not pass.\n",
+      "expertScorePCUA": 45
+    },
+    {
+      "question": "Answer the following questions related to burn down chart in SCRUM:\nc) when is it created? once (when?) or periodically (how often?)\nd) what does it mean, when the burn down chart runs below the line of the planned sprint?\n",
+      "sampleAnswer": "c) periodically: in the scope of a sprint, each day a new point is added to the chart\nd) we planned the sprint too pessimistically\n",
+      "correctUserAnswer": "c) the chart is created periodically, once per sprint. Each day of the sprint we add a new point.\nd) it means that the sprint was estimated too pessimistically.\n",
+      "wrongUserAnswer": "c) the chart is created once\nd) it means that the sprint ended before the given end time. In that case, we immediately proceed to the next sprint and we cut down the chart.\n",
+      "partiallyCorrectUserAnswer": "c) the chart is created periodically once per sprint. Each day a new point is added.\nd) I don’t know :(\n",
+      "expertScorePCUA": 40
+    },
+    {
+      "question": "What is created in reverse engineering: new software versions or patches/fixes? Name the goal of reverse engineering.\n",
+      "sampleAnswer": "None of them. The goal of reverse engineering is not creating software. It’s goal is to reconstruct the analytical and project documentation.\n",
+      "correctUserAnswer": "In the scope of reverse engineering neither new software version nor a patch is created. It’s goal is the recreation of the analytical and project documentation of already existing software.\n",
+      "wrongUserAnswer": "System versions. Reverse engineering means creating code for an already existing system.\n",
+      "partiallyCorrectUserAnswer": "Neither of them.\n",
+      "expertScorePCUA": 40
+    },
+    {
+      "question": "What does SLA mean? Who sets the SLA with whom?\n",
+      "sampleAnswer": "SLA means Service Level Agreement, It’s a contract with the client. Its purpose is settlement of services.",
+      "correctUserAnswer": "SLA is a Service Level Agreement. It is set between the client an the service provider in order for settling the services.\n",
+      "wrongUserAnswer": "SLA is Simple Local Alignment. It is one of the algorithms used in bioinformatics that will show up on the exam. It was established by Prof. Małafiejski with students.\n",
+      "partiallyCorrectUserAnswer": "Service Level Agreement. A contract for service settling.\n",
+      "expertScorePCUA": 60
+    },
+    {
+      "question": "What actions (please name steps) ensure the correctness of code refactoring?\n",
+      "sampleAnswer": "1. Identification of the smell.\n2. Preparing the automatic tests.\n3. Choosing a refactorization mechanism.\n4. Doing the refactorization\n5. Checking the correctness (if no bugs were introduced)\n6. Repeating until the smell is removed.\n",
+      "correctUserAnswer": "1. Locate bad smell\n2. Write tests covering the use cases of the code which will be refactored and make sure they pass.\n3. Choose a refactorization mechanism.\n4. Do the refactorization.\n5. Make sure, the tests still pass.\n6. Repeat until the smell is removed.\n",
+      "wrongUserAnswer": "1. Delete the code\n2. Write everything from the ground up based on class diagrams\n",
+      "partiallyCorrectUserAnswer": "1. Choose the code to be refactored\n2. Choose a refactorization mechanism\n3. Do the refactor\n",
+      "expertScorePCUA": 50
+    },
+    {
+      "question": "Does SLA take into account measurements? If yes, which measurements are used?\n",
+      "sampleAnswer": "SLA (Service Level Agreement) defines, among other things, the method of measurement and reporting. Availability, performance and incident handling are measured.\n",
+      "correctUserAnswer": "Yes, it does take into account the measurements. SLA defines among other things, the methods of reporting and measuring. The things that are measured contain: availability, performance and incident handling.\n",
+      "wrongUserAnswer": "No it does not take measures into account.\n",
+      "partiallyCorrectUserAnswer": "Yes, it does take measures into account.\n",
+      "expertScorePCUA": 30
+    },
+    {
+      "question": "What might a certificate contain? (including required fields)\n",
+      "sampleAnswer": "-public key of certification authority confirming the subject’s identity\n-private key of the certified subject\n-data of the subject\n-private key of the certified subject\n",
+      "correctUserAnswer": "-CA (certification authority) public key, which confirms the subject’s identity\n-the private and public key of the certified subject\n-certified subject’s data\n",
+      "wrongUserAnswer": "-private key of the certification authority that confirms the identity of the subject\n-data of the encrypted agreement\n",
+      "partiallyCorrectUserAnswer": "-private key and public key of the certified subject\n-data of the certified subject\n",
+      "expertScorePCUA": 60
+    },
+    {
+      "question": "What is the characteristic of native VLAN?\n",
+      "sampleAnswer": "In overlapping VLANs when a station sends a frame, it will be sent only within the virtual network marked as native (native VLAN). Each port might have only one configured native network.\n",
+      "correctUserAnswer": "When a station in overlapping VLANs sends a frame, it is sent only within the native VLAN. Each port must be configured so that it has only one native VLAN assigned. \n",
+      "wrongUserAnswer": "The natural enemy of a protagonist.\n",
+      "partiallyCorrectUserAnswer": "Each port can have only one configured native network.\n",
+      "expertScorePCUA": 40
+    },
+    {
+      "question": "Name the characteristics of automatic VLAN configuration using RADIUS server:\n",
+      "sampleAnswer": "- assigning VLAN numbers\n- VLAN network configuration on port, that is connected to a station is done only after the station is authenticated\n- the ability of configuring a couple of virtual networks with the ability to simultaneously point out which should have the tags enabled\n",
+      "correctUserAnswer": "The characteristics of automatic VLaN configuration are:\n- assigning VLAN numbers\n- if a station is connected to a port, than the VLAN configuration is done only after the station is authenticated\n- a couple of virtual networks can be configured with an option to point out which of them should have enabled tags\n",
+      "wrongUserAnswer": "When a station sends a frame within the scope of a native VLAN, each port might be configured to contain only one native network.\n",
+      "partiallyCorrectUserAnswer": "The characteristics of automatic VLAN configuration are:\n- assigning VLAN numbers\n- if there is a station connected to a port, then the VLAN configuration is done only after the station is authorized.\n",
+      "expertScorePCUA": 69
+    },
+    {
+      "question": "The following procedure takes the adjacency matrix of a simple graph.\nfunction X(G[1..n, 1..n], n)\nbegin\n    B=G*G;\n    s=0;\n    for i=1 to n-1 do\n        for j=i+1 to n do\n            if G[i, j]=1 then s=s+B[i, j];\n    return s/3;\nend\n1. What parameter of G does the procedure return?\n2. How should it be modified in order for the execution time to be asymptotically as short as possible?\n",
+      "sampleAnswer": "1. We count all paths of the length of 2, which are found between the vertices that are connected by an edge. At the end we divide the number by 3. That means, this procedure returns the number of triangles (C3) in a graph G. Dividing by 3 is the result of each triangle having 3 of such vertices.\n2. In order for the execution time to be asymptotically as short as possible, we might use a fast matrix multiplication, using for instance Strassen method, which has the complexity of O(n^log{2}(7))\n",
+      "correctUserAnswer": "1. It returns the number of triangles in graph G. The procedure counts each paths of length 2 between vertices that are connected by an edge. We need to divide the result by 3, because each triangle has 3 of such vertices.\n2. In order for the execution time to be asymptotically as short as possible, we might use some fast matrix multiplication methods, like for instance Strassen method, which has the time complexity lower than O(n^3).\n",
+      "wrongUserAnswer": "1. This method returns the number of vertices divided by 3.\n2. We assume, that the number of vertex is given as input, so in that case we can just skip the for loop and divide the number of vertices by 3\n",
+      "partiallyCorrectUserAnswer": "1. It returns the number of triangles in graph G. The procedure counts each path of the length of 2 between 2 vertices that are connected by an edge. We need to divide the result by 3 because each triangle has 3 such vertices.\n",
+      "expertScorePCUA": 60
+    }
+  ]
+}

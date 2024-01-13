@@ -1,0 +1,84 @@
+{
+  "answers": [
+    {
+      "question": "Jaka jest główna różnica między wywołaniem usługi poprzez bezpośrednie wysłanie żądania do webserwisu usługi, a poprzez system kolejkowy?\n",
+      "sampleAnswer": "Bezpośrednie wysłanie żądania oznacza natychmiastową odpowiedź, podczas gdy system kolejkowy umożliwia asynchroniczne przetwarzanie danych.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "A ja wiem? Nie no nie wiem hihi XD",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Z czego składa się obraz w grafice wektorowej?\n",
+      "sampleAnswer": "W grafice wektorowej obraz składa się z odcinków i tworzenie obrazu polega na rysowaniu poszczególnych odcinków.",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "2 + 2 = 69",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Za co odpowiada kierownik projektu w metodyce RUP?\n",
+      "sampleAnswer": "Odpowiada za analizę zagrożeń i rejestr ryzyka.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "Analiza matematyczna I, głównie całki: pojedyncze, podwójne, potrójne…\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Proszę podać co oznacza SLA. Kto z kim ustala SLA?\n",
+      "sampleAnswer": "SLA oznacza Service Level Agreement, jest to umowa zawarta z klientem w celu rozliczania usług.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "Nie wiem! Jeszcze jak!\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Wizja systemu.\n\nWymienić zagadnienia (7), które powinny zostać opisane w Wizji Systemu. Scharakteryzować każde z tych zagadnień, podając jakie informacje należałoby dla nich określić i zawrzeć w dokumencie Wizji.\n",
+      "sampleAnswer": "1. Opis organizacji - opis organizacji/działu/otoczenia, dla którego ma być tworzony system. Zakładamy, że chodzi o konkretną organizację a nie zbiór organizacji (np. politechnika gdańska zamiast uczelnia wyższa)\n-opis zawierający konkretne dane, również liczbowe, powiązania z innymi organizacjami, główne procesy, profil działalności\n-perspektywy dalszej działalności, rozwoju\n-struktura organizacyjna, podział obowiązków i odpowiedzialności\n-identyfikacja problemów w aktualnym funkcjonowaniu, które można wyeliminować lub ograniczyć wprowadzając system\n-ogólna koncepcja systemu IT\n\n2. Cele systemu - jakie korzyści oczekuje odbiorca systemu po jego wdrożeniu?\n\n3. Interesariusze systemu - i ich punkty widzenia, do interesariuszy zalicza się każdy podmiot niekoniecznie ożywiony, mający uzasadnione prawo do wywarcia wpływu na powstający system. Wymieniamy interesariusza oraz opisujemy czego oczekuje od systemu.\n\n4. Kontekst systemu - użytkownicy i systemy zewnętrzne - użytkownicy i ich specyfikacja: kto będzie korzystał z systemu, w jakich warunkach na co należy mu zapewnić w systemie. Inne systemy współpracujące: zakres współpracy, funkcje udostępniane lub wywoływane (API), interfejsy, formaty danych, współdzielone dane.\n\n5. Zakres funkcjonalności - ogólne wymienienie poszczególnych funkcji dostępnych dla użytkowników.\n\n6. Wymagania jakościowe - wymagania formułowane w sposób konkretny, mierzalny ale bez narzucania określonych rozwiązań.\n\n7. Ograniczenia - dot. projektu i zasobów, np.: pełny system musi być dostarczony i wdrożony do dnia 02.04.2005.\ndot. produktu np.: w celu spójności z polityką technologiczną klienta, warstwa danych systemu musi być oparta o MS SQL.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "2. Nie mam pojęcia co tu napisać\n1. tutaj też nie :---DDDDDD\n3. Nudzi mi się\n7. Daj pan tróję i lece w chatę\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Należy spodziewać się najwyższego kosztu korekcji w przypadku błędów wykrytych podczas etapu:\n",
+      "sampleAnswer": "użytkowanie i konserwacja\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "***** prawo i sprawiedliwość\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Za co odpowiada kierownik projektu w metodyce RUP?\n",
+      "sampleAnswer": "Odpowiada za analizę zagrożeń i rejestr ryzyka.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "XDDDDDDDDDDDDDDD za coś\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Jakie działania (wymień co najmniej 4 kroki) należy wykonać zgodnie z metodą TDD (Test Driven Development), gdy został zgłoszony błąd oprogramowania.\n",
+      "sampleAnswer": "1. utwórz przypadek testowy, który nie będzie spełniony dla sytuacji specyficznej dla zgłoszonego błędu\n2. uruchom testy i sprawdź, że testy zgłaszają błąd\n3. usuń błąd w kodzie\n4. uruchom testy i sprawdź, czy dają wynik pozytywny, jeżeli tak, to wróć do kroku 3\n5. przekaż poprawioną wersję oprogramowania użytkownikowi\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "fides et ratio\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Odpowiedz na następujące pytania dotyczące wykresu wypalenia (burn down chart) w metodzie SCRUM:\nc) kiedy wykres jest tworzony? jednorazowo (kiedy?) czy okresowo (jak często)?\nd) co oznacza, że wykres wypalania biegnie poniżej kreski zakładanego planu?\n",
+      "sampleAnswer": "c) okresowo: w obrębie sprintu, codziennie dodawany nowy punkt do wykresu\nd) zaplanowaliśmy sprint zbyt pesymistycznie\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "a) Maybach na toruńskich blachach\nb) tunel pod nowym jorkiem wykopany przez żydów\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Projekt systemu (projekt logiczny, system design):\nd) Wyjaśnić pojęcie projektu systemu\ne) Wyjaśnić jak ma się projektowanie do analizy systemowej\nf) Wymienić i krótko opisać czynności wykonywane w ramach projektu systemu\n",
+      "sampleAnswer": "d)\nProjekt systemu - proces definiowania architektury systemu oraz jej elementów aby zostały spełnione cele i wymagania postawione przed tym systemem.\n\ne)\nAnaliza systemowa odpowiada na pytanie CO?\nProjekt systemu odpowiada na pytanie JAK?\nAnaliza ukierunkowana jest na maksymalizację korzyści biznesowych klienta, identyfikuje i dokumentuje wymagania względem systemu.\nProjekt systemu zawiera decyzje odnośnie docelowej jego architektury, użytych technologii oraz uszczegóławia model logiczny z fazy analizy.\n\nf)\nOkreślenie architektury: Wyodrębnienie warstw systemu, podział na podsystemy, określenie interfejsów między warstwami i podsystemami.\n\nPodział na podsystemy: Podsystem realizuje określony zestaw funkcji, reprezentuje behawioralną jednostkę w fizycznym systemie.\nDecyzje o fizycznym rozmieszczeniu systemu: Jak system będzie rozmieszczony na docelowym sprzęcie. Stosuje się do nich diagramy wdrożenia.\nIdentyfikacja i obsługa dostępu do zasobów globalnych: Zasoby takie jak pliki i dane w bazie danych. Są różne metody synchronizujące do nich dostęp takie jak guardian objects (wolne ale bezpieczne) czy locks (szybkie ale mogą spowodować deadlock).\nObsługa warunków granicznych:\n-> Inicjalizacja - Przejście od stanu spoczynku do ustabilizowanego stanu pracy systemu.\n-> Zakończenie - Przejście ze stanu pracy do stanu spoczynku. W jego skład wchodzą: zwolnienie zasobów, usunięcie obiektów nietrwałych, systematyczne kończenie zależnych od siebie zadań\n-> Upadek - nieoczekiwane zakończenie pracy systemu. W miarę możliwości należy opisać jego przyczyny oraz stan systemu.\n\nWybranie podejścia do zarządzania pojemnikami danych: Mogą one służyć jako interfejs pomiędzy systemami lub jako zasoby umożliwiające współużytkowanie informacji.\nDecyzje co do stylu projektowania i wypracowanie rozwiązań kompromisowych.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "Mój stary to fanatyk wędkarstwa. Pół mieszkania zajebane wędkami, najgorzej. Średnio raz w miesiącu ktoś wdepnie w leżący na ziemi haczyk czy kotwicę i trzeba wyciągać w szpitalu, bo mają zadziory na końcu. W swoim dwudziestodwuletnim życiu już z 10 razy byłem na takim zabiegu. Tydzień temu poszedłem na jakieś losowe badania, to baba z recepcji jak mnie tylko zobaczyła, to kazała buta ściągać xD, bo myślała, że znowu hak w nodze.\n\nDruga połowa mieszkania zajebana „Wędkarzem Polskim”, „Światem Wędkarza”, „Super Karpiem” xD itp. Co tydzień ojciec robi objazd po wszystkich kioskach w mieście, żeby skompletować wszystkie wędkarskie tygodniki. Byłem na tyle głupi, że nauczyłem go into internety, bo myślałem, że trochę pieniędzy zaoszczędzimy na tych gazetkach, ale teraz nie dosyć, że je kupuje, to jeszcze siedzi na jakichś forach dla wędkarzy i kręci gównoburze z innymi wędkarzami o najlepsze zanęty itp. Potrafi drzeć mordę do monitora albo wypierdolić klawiaturę za okno. Kiedyś ojciec mnie wkurwił, to założyłem tam konto i go trollowałem, pisząc w jego tematach jakieś losowe głupoty, typu „karasie jedzo guwno”. Matka nie nadążała z gotowaniem bigosu na uspokojenie. Aha, ma już na forum rangę SUM, za najebanie 10 tysięcy postów.\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    }
+  ]
+}

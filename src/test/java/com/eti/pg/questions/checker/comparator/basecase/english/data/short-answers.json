@@ -1,0 +1,84 @@
+{
+  "answers": [
+    {
+      "question": "What’s the main difference between calling a service directly and sending a request to a webservice via a queue system?",
+      "sampleAnswer": "Sending the request directly results in a direct response, whereas the queue system allows for asynchronous data processing.\n",
+      "correctUserAnswer": "Direct sending of requests gives us immediate response, enqueueing allows for asynchronous processing of data.\n",
+      "wrongUserAnswer": "Sending the request directly allows for asynchronous data processing, whereas enqueueing returns the result immediately.",
+      "partiallyCorrectUserAnswer": "Sending the request directly, results in an immediate response.\n",
+      "expertScorePCUA": 50
+    },
+    {
+      "question": "What will be used for signing an email?",
+      "sampleAnswer": "Sender’s certificate, to be exact: its private key.\n",
+      "correctUserAnswer": "The sender’s certificate will be used, namely its private key.",
+      "wrongUserAnswer": "The certificate of a certificate authority will be used.\n",
+      "partiallyCorrectUserAnswer": "The public key of the sender will be used.\n",
+      "expertScorePCUA": 50
+    },
+    {
+      "question": "What does the image in vector graphics consist of?\n",
+      "sampleAnswer": "In vector graphics, the image consists of lines and creating an image is based on drawing the specified lines.\n",
+      "correctUserAnswer": "The image consists of lines, based on the lines an image is created.\n",
+      "wrongUserAnswer": "In vector graphics, the image consists of pixels and creating the image is based on choosing the color for the selected object.\n",
+      "partiallyCorrectUserAnswer": "The image consists of lines.\n",
+      "expertScorePCUA": 50
+    },
+    {
+      "question": "If a dipole is placed in a uniform electric field, forces act on it that...\n",
+      "sampleAnswer": "They strive to set the dipole moment vector so that its direction is parallel to the electric field intensity vector.\n",
+      "correctUserAnswer": "they strive to adjust the dipole moment vector so that its direction becomes parallel to the electric field intensity vector.\n",
+      "wrongUserAnswer": "They strive to set the dipole moment vector so that its direction is perpendicular to the electric field intensity vector.\n",
+      "partiallyCorrectUserAnswer": "They strive to set the dipole moment vector in a specific way.\n",
+      "expertScorePCUA": 30
+    },
+    {
+      "question": "What is the best use case for maps with large scale?\n",
+      "sampleAnswer": "They are best used for mapping cities.\n",
+      "correctUserAnswer": "Mapping cities.\n",
+      "wrongUserAnswer": "Mapping continents.\n",
+      "partiallyCorrectUserAnswer": "Mapping small regions.\n",
+      "expertScorePCUA": 70
+    },
+    {
+      "question": "What is the project manager in RUP responsible for?\n",
+      "sampleAnswer": "Is responsible for risk analysis and registering risks.\n",
+      "correctUserAnswer": "He is responsible for analyzing risks and registering risks.\n",
+      "wrongUserAnswer": "He is responsible for product deployment.\n",
+      "partiallyCorrectUserAnswer": "He is responsible for risk analysis.\n",
+      "expertScorePCUA": 50
+    },
+    {
+      "question": "What is a scenario in Scrum?\n",
+      "sampleAnswer": "It’s a description of using the system from the problem to its solution.\n",
+      "correctUserAnswer": "It is a description of using the system beginning from the given problem and its solution.\n",
+      "wrongUserAnswer": "It’s a use case.\n",
+      "partiallyCorrectUserAnswer": "It’s a description of using the system.\n",
+      "expertScorePCUA": 60
+    },
+    {
+      "question": "What should daily Scrum look like?",
+      "sampleAnswer": "It should take place standing up and be short.",
+      "correctUserAnswer": "It should be short and take place while standing up.\n",
+      "wrongUserAnswer": "It should be used for solving detailed problems.\n",
+      "partiallyCorrectUserAnswer": "It should take place while standing up, but a lot of times it may take a longer while.\n",
+      "expertScorePCUA": 40
+    },
+    {
+      "question": "In a bluetooth system a single pico network can consist of…\n",
+      "sampleAnswer": "1 master node and 7 active slave nodes.\n",
+      "correctUserAnswer": "One master node and seven slave nodes.\n",
+      "wrongUserAnswer": "7 master nodes and 255 active slave nodes.\n",
+      "partiallyCorrectUserAnswer": "One master node and a couple of slave nodes.\n",
+      "expertScorePCUA": 80
+    },
+    {
+      "question": "What does the image histogram allow for?\n",
+      "sampleAnswer": "It allows for the reduction of the number of colors in an image.\n",
+      "correctUserAnswer": "It allows the reduction of the number of colors in a picture.\n",
+      "wrongUserAnswer": "It allows for noise reduction.",
+      "partiallyCorrectUserAnswer": "It allows for modifying the number of used colors in an image.\n",
+      "expertScorePCUA": 40
+    }
+  ]
+}

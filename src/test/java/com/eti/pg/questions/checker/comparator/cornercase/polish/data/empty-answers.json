@@ -1,0 +1,84 @@
+{
+  "answers": [
+    {
+      "question": "Z czego składa się obraz w grafice wektorowej?\n",
+      "sampleAnswer": "W grafice wektorowej obraz składa się z odcinków i tworzenie obrazu polega na rysowaniu poszczególnych odcinków.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "...",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Jak powinno wyglądać spotkanie Scrum?\n",
+      "sampleAnswer": "Powinno odbywać się na stojąco i być krótkie.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "...",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Jaka jest właściwa kolejność warstw systemu?\n",
+      "sampleAnswer": "prezentacji, usług, logiki biznesowej, danych\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "...",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Na co pozwala histogram obrazu?\n",
+      "sampleAnswer": "Pozwala na redukcję liczby barw występujących w obrazie.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "...",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Odpowiedz na następujące pytania dotyczące wykresu wypalenia (burn down chart) w metodzie SCRUM:\nc) kiedy wykres jest tworzony? jednorazowo (kiedy?) czy okresowo (jak często)?\nd) co oznacza, że wykres wypalania biegnie poniżej kreski zakładanego planu?\n",
+      "sampleAnswer": "c) okresowo: w obrębie sprintu, codziennie dodawany nowy punkt do wykresu\nd) zaplanowaliśmy sprint zbyt pesymistycznie\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "...",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Jakie działania (proszę wymienić kroki) zapewniają poprawność refaktoryzacji kodu?\n",
+      "sampleAnswer": "1. Identyfikacja brzydkiego zapachu\n2. Przygotowanie testów automatycznych\n3. Wybór mechanizmu refaktoryzacji\n4. Wykonanie refaktoryzacji\n5. Sprawdzenie poprawności (czy nie wprowadzono błędu)\n6. Powtarzanie aż do usunięcia brzydkiego zapachu\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "...",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Jaką cechę posiada native VLAN?",
+      "sampleAnswer": "W overlapping VLANs w przypadku gdy stacja wysyła ramkę, zostanie ona rozesłana tylko w obrębie sieci wirtualnej oznaczonej jako natywna (native VLAN). Każdy port może mieć skonfigurowaną tylko jedną sieć natywną.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "...",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Projekt systemu (projekt logiczny, system design):\nd) Wyjaśnić pojęcie projektu systemu\ne) Wyjaśnić jak ma się projektowanie do analizy systemowej\nf) Wymienić i krótko opisać czynności wykonywane w ramach projektu systemu\n",
+      "sampleAnswer": "d)\nProjekt systemu - proces definiowania architektury systemu oraz jej elementów aby zostały spełnione cele i wymagania postawione przed tym systemem.\n\ne)\nAnaliza systemowa odpowiada na pytanie CO?\nProjekt systemu odpowiada na pytanie JAK?\nAnaliza ukierunkowana jest na maksymalizację korzyści biznesowych klienta, identyfikuje i dokumentuje wymagania względem systemu.\nProjekt systemu zawiera decyzje odnośnie docelowej jego architektury, użytych technologii oraz uszczegóławia model logiczny z fazy analizy.\n\nf)\nOkreślenie architektury: Wyodrębnienie warstw systemu, podział na podsystemy, określenie interfejsów między warstwami i podsystemami.\n\nPodział na podsystemy: Podsystem realizuje określony zestaw funkcji, reprezentuje behawioralną jednostkę w fizycznym systemie.\nDecyzje o fizycznym rozmieszczeniu systemu: Jak system będzie rozmieszczony na docelowym sprzęcie. Stosuje się do nich diagramy wdrożenia.\nIdentyfikacja i obsługa dostępu do zasobów globalnych: Zasoby takie jak pliki i dane w bazie danych. Są różne metody synchronizujące do nich dostęp takie jak guardian objects (wolne ale bezpieczne) czy locks (szybkie ale mogą spowodować deadlock).\nObsługa warunków granicznych:\n-> Inicjalizacja - Przejście od stanu spoczynku do ustabilizowanego stanu pracy systemu.\n-> Zakończenie - Przejście ze stanu pracy do stanu spoczynku. W jego skład wchodzą: zwolnienie zasobów, usunięcie obiektów nietrwałych, systematyczne kończenie zależnych od siebie zadań\n-> Upadek - nieoczekiwane zakończenie pracy systemu. W miarę możliwości należy opisać jego przyczyny oraz stan systemu.\n\nWybranie podejścia do zarządzania pojemnikami danych: Mogą one służyć jako interfejs pomiędzy systemami lub jako zasoby umożliwiające współużytkowanie informacji.\nDecyzje co do stylu projektowania i wypracowanie rozwiązań kompromisowych.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "...",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Specyfika oprogramowania:\na) Jakie analogie można wskazać między różnymi dziedzinami inżynierskimi, w tym software’ową?\nb) A jakie różnice? Wymienić i opisać 5 czynników specyfiki oprogramowania odróżniających inżynierię oprogramowania od innych dziedzin inżynierskich.\n",
+      "sampleAnswer": "a)\n-negocjacje z klientem, komunikacja\n-planowanie przedsięwzięcia, przydział zasobów\n-pozyskanie wymagań\n-plany, modele, obliczenia\n-zarządzanie przedsięwzięciem\n-zapewnienie jakości\n-kwalifikacje pracowników\n-narzędzia i technologie\n\nb)\n1. Niematerialny produkt - oprogramowanie jest niematerialnym wytworem intelektu\n2. Zdominowane przez projektowanie - nakłady na produkcję są pomijalne (kopiowanie), większość wysiłku skierowana na projektowanie\n3. Nie zużywa się - wadliwe działanie wynika z błędów projektowych czy też z niedopasowania do środowiska\n4. Duża złożoność - trudno prześledzić wszystkie możliwości, wypuścić produkt pozbawiony błędów\n5. Dowolność struktury - brak ograniczeń typowych dla świata fizycznego\n6. Zależność elementów - niejawne zależności między elementami prowadzą do trudności konstrukcyjnych, błędów, problemów z wprowadzaniem modyfikacji\n7. Brak ograniczeń - nieznaczna zmiana może prowadzić do znacznych efektów\n8. Łatwość modyfikacji - bardzo pożądane, ale może prowadzić do wprowadzania zmian w nieprzemyślany sposób, błędów i bylejakości\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "...",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Wymienić najczęstsze problemy związane z pozyskiwaniem i analizą wymagań. Dla każdego problemu podać istniejące sposoby radzenia sobie z nim (np. odpowiednie techniki pozyskiwania, sposób specyfikowania, przyjęcie specyficznego modelu wytwarzania).\n",
+      "sampleAnswer": "1. Udziałowiec może nie wiedzieć czego chce - można temu zapobiec stosując prototypowanie aby zapewnić mu coś bardziej “namacalnego”.\n\n2. Wiedza dziedzinowa - rzeczy oczywiste dla interesariusza niekoniecznie są oczywiste dla kogoś z zewnątrz i może je na przykład pomijać. Rozwiązaniem tego problemu może być stosowanie technik wydobywania wymagań takich jak obserwacje czy terminowanie.\n\n3. Wymagania nie są dostępne w gotowej postaci - udziałowiec nie poda gotowej listy tego co oczekuje od systemu. Użyteczne mogą okazać się techniki wydobywania wymagań, takie jak wywiady.\n\n4. Spójność - wymagania mogą być niespójne, nawet jeśli pochodzą od jednego interesariusza. Można tu wykorzystać modelowanie, gdyż przy przełożeniu wymagań na model ujawniają się niespójności.\n\n5.  Kompletność - czy aby na pewno nie będzie niczego brakować w naszym systemie. Mogą nam w tym pomóc macierze śladowości, gdzie przyporządkowujemy konkretny feature do konkretnego use case’a. Bądź też sprawdzanie wystąpienia operacji CRUD dla danych obiektów.\n6. Priorytetyzacja - różni udziałowcy mogą mieć różne potrzeby; mogą wystąpić też zależności między konkretnymi funkcjonalnościami. Do ustalania priorytetów może posłużyć MoSCoW (Must, Could, Should, Won’t), lub Timeboxing/budgeting, czyli oszacowanie czasochłonności i kosztów poszczególnych wymagań i dobór podzbioru możliwego do realizacji np. w kolejnej iteracji.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "...",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "answers": [
+    {
+      "question": "Jakie działania (wymień co najmniej 4 kroki) należy wykonać zgodnie z metodą TDD (Test Driven Development), gdy został zgłoszony błąd oprogramowania.\n",
+      "sampleAnswer": "1. utwórz przypadek testowy, który nie będzie spełniony dla sytuacji specyficznej dla zgłoszonego błędu\n2. uruchom testy i sprawdź, że testy zgłaszają błąd\n3. usuń błąd w kodzie\n4. uruchom testy i sprawdź, czy dają wynik pozytywny, jeżeli nie, to wróć do kroku 3\n5. przekaż poprawioną wersję oprogramowania użytkownikowi\n",
+      "correctUserAnswer": "1. Napisz test ze scenariuszem pokrywającym nowo wykryty błąd\n2. Upewnij się, że test nie przechodzi\n3. Znajdź i popraw błąd\n4. Odpal test i upewnij się, że przechodzi\n5. Jeżeli test nie przeszedł, to poprawiamy dalej\n",
+      "wrongUserAnswer": "Zamknij ticket, TDD nie koncentruje się na poprawianiu błędów.\n\n",
+      "partiallyCorrectUserAnswer": "Napisz test ze scenariuszem pokrywającym nowo wykryty błąd i upewnij się, że nie przechodzi.",
+      "expertScorePCUA": 45
+    },
+    {
+      "question": "Odpowiedz na następujące pytania dotyczące wykresu wypalenia (burn down chart) w metodzie SCRUM:\nc) kiedy wykres jest tworzony? jednorazowo (kiedy?) czy okresowo (jak często)?\nd) co oznacza, że wykres wypalania biegnie poniżej kreski zakładanego planu?\n",
+      "sampleAnswer": "c) okresowo: w obrębie sprintu, codziennie dodawany nowy punkt do wykresu\nd) zaplanowaliśmy sprint zbyt pesymistycznie\n",
+      "correctUserAnswer": "c) wykres jest tworzony okresowo raz na sprint. Każdego dnia sprintu dodawane są kolejne punkty.\nd) oznacza to, że oszacowaliśmy dany sprint zbyt pesymistycznie\n",
+      "wrongUserAnswer": "c) wykres jest tworzony jednorazowo\nd) oznacza to, że sprint zakończył się przed upływem czasu. Przechodzimy wtedy do kolejnego sprintu i ucinamy wykres.\n",
+      "partiallyCorrectUserAnswer": "c) wykres jest tworzony okresowo raz na sprint. Codziennie dodawany kolejny punkt.\nd) nie wiem :(\n",
+      "expertScorePCUA": 40
+    },
+    {
+      "question": "Czy w ramach inżynierii odwrotnej (reverse engineering) są tworzone nowe wersje (wydania) oprogramowania czy poprawki (patches, fixes)? Określ jednym zdaniem cel inżynierii odwrotnej.\n",
+      "sampleAnswer": "Żadne z nich. W ramach inżynierii odwrotnej nie powstaje produkt programowy. Jej celem jest odtworzenie dokumentacji analitycznej i projektowej na podstawie istniejącego już systemu.\n",
+      "correctUserAnswer": "W ramach inżynierii odwrotnej nie powstaje ani wydanie oprogramowania, ani patch. Jej celem jest odtworzenie dokumentacji projektowej i analitycznej na podstawie istniejącego już systemu.",
+      "wrongUserAnswer": "Wydania oprogramowania. Inżynieria odwrotna to tworzenie kodu do istniejącego już systemu.\n",
+      "partiallyCorrectUserAnswer": "Ani jedno ani drugie.\n",
+      "expertScorePCUA": 40
+    },
+    {
+      "question": "Proszę podać co oznacza SLA. Kto z kim ustala SLA?\n",
+      "sampleAnswer": "SLA oznacza Service Level Agreement, jest to umowa zawarta z klientem w celu rozliczania usług.\n",
+      "correctUserAnswer": "SLA to Service Level Agreement. Ustalana jest między klientem a dostawcą usługi w celach rozliczenia usług.\n",
+      "wrongUserAnswer": "SLA to Simple Local Alligment. Jest to jeden z algorytmów bioinformatycznych który pojawi się na kolosie. Ustalił to Prof. Małafiejski ze studentami.\n",
+      "partiallyCorrectUserAnswer": "Service Level Agreement. Umowa rozliczenia usług.\n",
+      "expertScorePCUA": 60
+    },
+    {
+      "question": "Jakie działania (proszę wymienić kroki) zapewniają poprawność refaktoryzacji kodu?\n",
+      "sampleAnswer": "1. Identyfikacja brzydkiego zapachu\n2. Przygotowanie testów automatycznych\n3. Wybór mechanizmu refaktoryzacji\n4. Wykonanie refaktoryzacji\n5. Sprawdzenie poprawności (czy nie wprowadzono błędu)\n6. Powtarzanie aż do usunięcia brzydkiego zapachu\n",
+      "correctUserAnswer": "1. Zlokalizuj brzydki zapach\n2. Napisz testy pokrywające przypadki użycia kodu, który refaktorujesz, upewnij sie że przechodzą\n3. Wybierz mechanizm refaktoryzacji\n4. dokonaj refaktoryzacji\n5. Upewnij się, że testy dalej przechodzą\n6. Powtarzaj aż do usunięcia brzydkiego zapachu\n",
+      "wrongUserAnswer": "1. Usuń kod\n2. Napisz go od nowa z ówczesnym rozplanowaniem wszystkiego na diagramach klas\n",
+      "partiallyCorrectUserAnswer": "1. Wybierz kod do refaktoryzacji\n2. wybierz mechanizm refaktoryzacji\n3. zrefaktoruj\n",
+      "expertScorePCUA": 50
+    },
+    {
+      "question": "Czy SLA obejmuje pomiary? Jeżeli tak, to jakie pomiary są stosowane?\n",
+      "sampleAnswer": "SLA (Service Level Agreement) określa między innymi sposób pomiaru i raportowania. Mierzone są: dostępność, wydajność i obsługa incydentów.\n",
+      "correctUserAnswer": "Tak, obejmuje pomiary. SLA określa między innymi sposób raportowania oraz pomiaru. Mierzone są dostępność, wydajność oraz obsługa incydentów.\n",
+      "wrongUserAnswer": "Nie, nie obejmuje pomiarów.\n",
+      "partiallyCorrectUserAnswer": "Tak obejmuje pomiary. \n",
+      "expertScorePCUA": 30
+    },
+    {
+      "question": "Co może zawierać certyfikat? (włączając pola obowiązkowe)\n",
+      "sampleAnswer": "-klucz publiczny urzędu certyfikacji potwierdzającego tożsamość podmiotu\n-klucz prywatny podmiotu certyfikowanego\n-dane podmiotu\n-klucz publiczny podmiotu certyfikowanego\n",
+      "correctUserAnswer": "-klucz publiczny urzędu certyfikacji, który potwierdza tożsamość podmiotu\n-klucz prywatny oraz publiczny podmiotu certyfikowanego\n-dane podmiotu certyfikowanego\n",
+      "wrongUserAnswer": "-klucz prywatny urzędu certyfikacji potwierdzającego tożsamość podmiotu\n-dane zaszyfrowaną umowę\n",
+      "partiallyCorrectUserAnswer": "-klucz prywatny oraz publiczny podmiotu certyfikowanego\n-dane podmiotu certyfikowanego\n",
+      "expertScorePCUA": 60
+    },
+    {
+      "question": "Jaką cechę posiada native VLAN?",
+      "sampleAnswer": "W overlapping VLANs w przypadku gdy stacja wysyła ramkę, zostanie ona rozesłana tylko w obrębie sieci wirtualnej oznaczonej jako natywna (native VLAN). Każdy port może mieć skonfigurowaną tylko jedną sieć natywną.\n",
+      "correctUserAnswer": "Gdy stacja w overlapping VLANs wysyła ramkę, to jest ona rozesłana tylko w obrębie natywnej sieci wirtualnej (native VLAN). Dla każdego portu może być skonfigurowana tylko jedna sieć natywna.",
+      "wrongUserAnswer": "Naturalnie jest wrogiem protagonisty.\n",
+      "partiallyCorrectUserAnswer": "Każdy port może mieć skonfigurowany tylko jedną sieć natywną.\n",
+      "expertScorePCUA": 40
+    },
+    {
+      "question": "Cechy sposobu automatycznej konfiguracji VLAN z wykorzystaniem serwera RADIUS:\n",
+      "sampleAnswer": "- przydzielanie numerów VLAN\n- konfiguracja sieci VLAN na porcie, do którego podłączona jest stacja dokonywana jest dopiero po jej uwierzytelnieniu\n- możliwość skonfigurowania kilku sieci wirtualnych jednocześnie z opcją wskazania, które mają mieć włączone znaczniki\n",
+      "correctUserAnswer": "Cechami automatycznej konfiguracji VLAN sa:\n- przydzielanie numerów VLAN\n- jeżeli na porcie jest podłączone stacja, to konfiguracja VLAN dokonywana jest dopiero po jej uwierzytelnieniu\n- można skonfigurować kilka sieci wirtualnych z opcją wskazania, które mają mieć włączone znaczniki\n",
+      "wrongUserAnswer": "Gdy stacja wysyła ramkę, to jest ona rozesłana tylko w obrębie natywnej sieci wirtualnej (native VLAN). Dla każdego portu może być skonfigurowana tylko jedna sieć natywna.\n",
+      "partiallyCorrectUserAnswer": "Cechami automatycznej konfiguracji VLAN sa:\n- przydzielanie numerów VLAN\n- jeżeli na porcie jest podłączone stacja, to konfiguracja VLAN dokonywana jest dopiero po jej uwierzytelnieniu\n",
+      "expertScorePCUA": 69
+    },
+    {
+      "question": "Poniższa funkcja otrzymuje na wejściu macierz sąsiedztwa grafu prostego:\nfunction X(G[1..n, 1..n], n)\nbegin\n    B=G*G;\n    s=0;\n    for i=1 to n-1 do\n        for j=i+1 to n do\n            if G[i, j]=1 then s=s+B[i, j];\n    return s/3;\nend\n1. Jaki parametr grafu G zwraca powyższa funkcja?\n2. Jak należy ją zmodyfikować, by czas działania był asymptotycznie jak najmniejszy?\n",
+      "sampleAnswer": "1. Zliczamy wszystkie drogi o długości 2, między wierzchołkami połączonymi krawędzią, na końcu dzielimy tą liczbę przez 3. Zatem procedura ta zwraca liczbę trójkątów (C3) w grafie G. Dzielenie przez 3 wynika z tego, że każdy trójkąt ma 3 takie wierzchołki. \n2. Aby czas działania był asymptotycznie jak najmniejszy, można zastosować szybkie mnożenie macierzy, np. wg Strassena, o złożoności O(n^log{2}(7))\n",
+      "correctUserAnswer": "1. Zwraca liczbę trójkątów w grafie G. Procedura zlicza wszystkie drogi długości 2 między wierzchołkami połączonymi krawędzią. Musimy wynik podzielić przez 3, ze względu na to, że każdy trójkąt ma 3 takie wierzchołki.\n2. Aby czas działania był jak najmniejszy, możemy zastosować szybkie mnożenie macierzy, np. wg Strassena, które ma złożoność mniejszą niż O(n^3).\n",
+      "wrongUserAnswer": "1. Metoda ta zwraca liczbę wierzchołków podzieloną przez 3.\n2. Zakładamy, że liczba wierzchołków, czyli n jest znana na wejściu. Możemy w takim razie ominąć pętle i bezpośrednio zwrócić wynik.\n",
+      "partiallyCorrectUserAnswer": "1. Zwraca liczbę trójkątów w grafie G. Procedura zlicza wszystkie drogi długości 2 między wierzchołkami połączonymi krawędzią. Musimy wynik podzielić przez 3, ze względu na to, że każdy trójkąt ma 3 takie wierzchołki.\n",
+      "expertScorePCUA": 60
+    }
+  ]
+}

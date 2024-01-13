@@ -15,6 +15,12 @@ public class OpenAIComparator {
         service = new OpenAiService();
     }
 
+    public ChatGptGradingResponse compare(String userAnswer, String sampleAnswer, String question, String model) {
+        String prompt = mapper.userAnswerAndQuestionToPrompt(userAnswer, sampleAnswer, question);
+        ChatGPTGetResponse response = service.sendAnswer(prompt, model);
+        return mapper.chatGptAnswerToDto(response);
+    }
+
     public ChatGptGradingResponse compareBasic(String userAnswer, String sampleAnswer, String question) {
         String prompt = mapper.userAnswerAndQuestionToPrompt(userAnswer, sampleAnswer, question);
         ChatGPTGetResponse response = service.sendAnswer(prompt, "basic");

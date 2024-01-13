@@ -1,0 +1,84 @@
+{
+  "answers": [
+    {
+      "question": "What’s the main difference between calling a service directly and sending a request to a webservice via a queue system?",
+      "sampleAnswer": "Sending the request directly results in a direct response, whereas the queue system allows for asynchronous data processing.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "Do I know? I do not know hehe XD",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "What does the image in vector graphics consist of?",
+      "sampleAnswer": "In vector graphics, the image consists of lines and creating an image is based on drawing the specified lines.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "2 + 2 = 69",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "What is the project manager in RUP responsible for?\n",
+      "sampleAnswer": "Is responsible for risk analysis and registering risks.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "Calculus I, mainly integrals: single, double, triple…\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "What does SLA mean? Who sets the SLA with whom?",
+      "sampleAnswer": "SLA means Service Level Agreement, It’s a contract with the client. Its purpose is settlement of services.",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "I do not know! Yet how!",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "System vision.\n\nList issues (7), which should be described in System Vision. Characterize each of them, explaining which information should be specified and listed in the document.\n\n",
+      "sampleAnswer": "1. Organization description - description of organization/department/environment, for which the system will be created. We assume, that a specific organization is given, and not a set of organizations. (for instance Gdańsk University of Technology instead of a university)\n-description containing specific data, including numerical data, connections with other organizations, main process, business profile\n-prospects for further activity and development\n-organizational structure, division of duties and responsibilities\n-identification of problems in current functioning, which can be eliminated or restrained by introducing the system\n-general concept of the IT system\n\n2. System goals - what benefits does the recipient of the system expect after its implementation?\n\n3. System stakeholders - and their points of view. Stakeholders include each subject not necessary animate that has the right to influence the constructed system. We name the stakeholder and we describe what he expects from the system.\n\n4. System context - users and external systems - users and their specification: who will be using the system, under what conditions. Other cooperating systems: domain of cooperation, shared or called functions (API), interfaces, data formats, shared data.\n\n5. Scope of functionality - general listing of individual functions available to users.\n\n6. Quality requirements - requirements formulated in a specific, measurable way, but without imposing specific solutions.\n\n7. Restrictions - related to project and resources, for instance the complete system must be delivered and deployed till 02.04.2005.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "2. I do not know what to write here\n1. here as well :---DDDDDD\n3. I’m bored…\n7. Give me a 3.0 and I go home\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "The highest cost of correction should be expected when an issue is detected in the phase of: \n",
+      "sampleAnswer": "use and maintenance\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "new world order",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "What is the project manager in RUP responsible for?\n",
+      "sampleAnswer": "Is responsible for risk analysis and risk registering.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "XDDDDDDDDDDDDDDD for something\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "What actions (name at least 4 steps) should be taken according to TDD (Test Driven Development), when a software bug was reported?\n",
+      "sampleAnswer": "1. create a test case, which will not be met for a situation specific for the reported bug.\n2. run the tests and make sure they do not pass.\n3. remove the bug from the code.\n4. run the tests and check if they give a positive result, if not, return to step 3.\n5. share the fixed version with the user.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "fides et ratio",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Answer the following questions related to burn down chart in SCRUM:\nc) when is it created? once (when?) or periodically (how often?)\nd) what does it mean, when the burn down chart runs below the line of the planned sprint?\n",
+      "sampleAnswer": "c) periodically: in the scope of a sprint, each day a new point is added to the chart\nd) we planned the sprint too pessimistically\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "a) Filthy Frank\nb) a tunnel under NYC mined by jews\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "System project (logical project, system design):\nd) Explain the definition of system project\ne) Explain how designing does relate to system analysis\nf) Name and briefly describe the activities done in the scope of system project.\n",
+      "sampleAnswer": "d)\nSystem project - the process of defining the system architecture and its elements so that the goals and requirements of the system are met.\n\ne)\nThe analysis answers the question WHAT?\nThe system project answers the question HOW?\nAnalysis is focused on maximizing business profit of the client, it identifies and documents system requirements.\nThe system project contains decisions about its target architecture, used technologies and it describes in more detail the logic model from analysis phase.\n\nf)\nDefining architecture: separating the system layers, dividing into subsystems, defining interfaces between the layers and subsystems. \n\nDividing into subsystems: A subsystem realizes a given scope of functions. It represents a behavioral unit in a physical system.\nThe decisions about physical deployment of the system: how will the system be deployed on target devices. Deployment diagrams may be used.\nIdentification and handling of global resources: Resources such as files and data in databases. There are different methods used for synchronized access to the resources, such as guardian objects (slow but safe) or locks (fast, but may cause a deadlock).\nCorner case handling:\n-> Initialization - Transition from inactive state to stabilized running state of the system. \n-> Termination - Transitioning from the running state to inactive state. It includes: freeing the resources, deleting non persisted objects, systematic ending of tasks which are dependent on each other.\n-> Downfall - unexpected system termination. As far as possible, its cause and system state should be described.\n\nChoosing data container management solutions: Data containers might be used as an interface between the systems or as resources enabling shared usage of information.\n\nDecisions on the design style and developing compromise solutions.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "My old man is a fishing fanatic. Half of the apartment is covered with fishing rods, that's the worst. On average, once a month someone steps on a hook or anchor lying on the ground and they have to be pulled out in the hospital because they have barbs at the end. In my twenty-two years of life, I have had this procedure 10 times. A week ago I went for some random tests, and as soon as the woman at the reception saw me, she told me to take off my shoes xD because she thought I had a hook in my leg again.\n\nThe other half of the apartment is full of \"Wędkarz Polski\", \"Świat Wędkarza\", \"Super Karp\" xD, etc. Every week my father goes to all the kiosks in the city to collect all the weekly fishing magazines. I was stupid enough to teach him about the Internet, because I thought we would save some money on these leaflets, but now he not only buys them, but also sits on some fishing forums and argues with other anglers about the best baits, etc. He can scream at the monitor or throw the keyboard out the window. Once my father pissed me off, so I created an account there and trolled him, writing random stupid things like \"crucians eat crap\". My mother couldn't keep up with cooking bigos to calm herself down. Oh, he already has the rank of SUM on the forum, for making 10,000 posts.\n\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "answers": [
+    {
+      "question": "What does an image in vector graphics consist of?\n",
+      "sampleAnswer": "In vector graphics, the image consists of lines and the creation of the image is based on drawing each of the defined lines.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "...",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "How should a daily Scrum meeting look like?",
+      "sampleAnswer": "Should take place while standing up and be short.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "...",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "What is the correct order of system layers?\n",
+      "sampleAnswer": "presentation, service, business logic, data\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "...",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "What does an image histogram allow for?\n",
+      "sampleAnswer": "It allows for reduction of the number of colors that appear in an image.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "...",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Answer the following questions on the burndown chart in SCRUM method:\nc) when is the chart created? once (when?) or periodically (how often)?\nd) what does it mean, that the burndown chart runs below the line of assumed plan?\n",
+      "sampleAnswer": "c) periodically: in the scope of a sprint, each day a new point is added to the chart\nd) we planned the sprint too pessimistically\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "...",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Which actions (please name steps) do ensure the correctness of code refactorization?\n",
+      "sampleAnswer": "1. Identification of the bad smell\n2. Preparing automatic tests\n3. Choosing a refactorization mechanism\n4. Doing the refactorization\n5. Checking if no bug was introduced\n6. Repeating until the bad smell is removed\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "...",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "What is the characteristic of native VLAN?",
+      "sampleAnswer": "In overlapping VLANs in the case when a station sends a frame, it will be sent only in the scope of the virtual network marked as native (native VLAN). Each port can have only one native VLAN configured.",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "...",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "System project (logical project, system design):\nd) Explain the definition of system project\ne) Explain how designing does relate to system analysis\nf) Name and briefly describe the activities done in the scope of system project.\n",
+      "sampleAnswer": "d)\nSystem project - the process of defining the system architecture and its elements so that the goals and requirements of the system are met.\n\ne)\nThe analysis answers the question WHAT?\nThe system project answers the question HOW?\nAnalysis is focused on maximizing business profit of the client, it identifies and documents system requirements.\nThe system project contains decisions about its target architecture, used technologies and it describes in more detail the logic model from analysis phase.\n\nf)\nDefining architecture: separating the system layers, dividing into subsystems, defining interfaces between the layers and subsystems. \n\nDividing into subsystems: A subsystem realizes a given scope of functions. It represents a behavioral unit in a physical system.\nThe decisions about physical deployment of the system: how will the system be deployed on target devices. Deployment diagrams may be used.\nIdentification and handling of global resources: Resources such as files and data in databases. There are different methods used for synchronized access to the resources, such as guardian objects (slow but safe) or locks (fast, but may cause a deadlock).\nCorner case handling:\n-> Initialization - Transition from inactive state to stabilized running state of the system. \n-> Termination - Transitioning from the running state to inactive state. It includes: freeing the resources, deleting non persisted objects, systematic ending of tasks which are dependent on each other.\n-> Downfall - unexpected system termination. As far as possible, its cause and system state should be described.\n\nChoosing data container management solutions: Data containers might be used as an interface between the systems or as resources enabling shared usage of information.\n\nDecisions on the design style and developing compromise solutions.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "...",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Software specification:\na) What analogies can be pointed out between different engineering domains, including software?\nb) And what differences? Name and describe 5 software specific factors that distinguish software engineering from other engineering domains.\n",
+      "sampleAnswer": "a)\n-client negotiations, communication\n-planning a business, assigning resources\n-requirements elicitation\n-plans, models, calculations\n-business management\n-quality assurance\n-employee qualifications\n-tools and technologies\n\nb)\n1. Non material product - software is a non material creation of our intellect\n2. Design dominated - production costs are negligible (copy + paste), most of the works is oriented on design\n3. It does not use up - working incorrectly is the result of design faults or not matching the target environment \n4. Huge complexity - it is hard to follow every single scenario, release a product without faults\n5. Freedom of structure - no restraints of the physical world apply\n6. Element dependence - implicit dependencies between elements lead to construction difficulties, bugs, problems with making modifications\n7. No limits - a non significant cause may lead to significant effects\n8. Easy to modify - very wanted, but may lead to modifying the product in a thoughtless way which might lead to errors and mediocrity\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "...",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Name the most frequent problems related to requirements elicitation and analisys. For each problem give examples of existing ways of dealing with it (for instance specific elicitation techniques, way of specifying, assuming a specific development model).\n",
+      "sampleAnswer": "1. A shareholder might not really know what he wants - it can be avoided by using prototyping in order to provide him with something “physical” \n\n2. Domain knowledge - things that are obvious for the stakeholder are not necessarily obvious for someone outside of his domain and might be shipped by them. A solution to this problem might be using techniques of requirements elicitation like observations or apprenticeship.\n\n3. The requirements are not available in ready-made form - the shareholder will not give a finished list of what he expects from the system. Requirement elicitation techniques like interviews might be useful.\n\n4. Consistency - the requirements might be inconsistent, even when they come from a single stakeholder. Modelling can be used, because wymagania mogą być niespójne, nawet jeśli pochodzą od jednego interesariusza. Można tu wykorzystać modelowanie, because inconsistencies are revealed when translating the requirements into a model.\n\n5. Completeness - are we sure that the will not be anything missing in our system? czy aby na pewno nie będzie niczego brakować w naszym systemie. Trace matrices might be helpful, where we assign a specific feature to a specific use case or check the existence of CRUD methods for given objects.\n\n6. Prioritization - different shareholders might have different needs. Dependencies on specific functionalities might appear. For setting priorities, we may use MoSCoW (Must, Could, Should, Won’t), or Timeboxing/budgeting, that is: assuming the time consumption and costs of different requirements and selection of a subset that can be done for instance in the next iteration.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "...",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    }
+  ]
+}

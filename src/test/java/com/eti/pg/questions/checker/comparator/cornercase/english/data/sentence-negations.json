@@ -1,0 +1,84 @@
+{
+  "answers": [
+    {
+      "question": "When does the Saaty method work best?\n",
+      "sampleAnswer": "When we do not have a single quality standard.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "Where we have a single quality standard.\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "What is the relation between animation mechanism in VRML and the parameters of played sound?",
+      "sampleAnswer": "it does not influence the parameters of played sound\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "it does influence the parameters of played sound\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Does compression always lower the quality of the signal?\n",
+      "sampleAnswer": "Yes.",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "No.",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "What does the visible system state mean?",
+      "sampleAnswer": "The user knows the current mode of the interface.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "The user does not know the current mode of the interface.\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "This activity should be planned for a period when you have more time, so that it will be done in time or delegated to an employee, who is prepared to do this task. - This sentence describes which category of Urgency?\n",
+      "sampleAnswer": "Important, but not urgent.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "Important and urgent.",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "What is a “throw away” prototype?\n",
+      "sampleAnswer": "It is a prototype done only with the thought of identifying requirements, it will not be used for building the actual product. \n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "It is a prototype done not only with the thought of identifying requirements, it will also be used for building the actual product. \n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Which weakness of the classic model is supposed to be fixed by model V?\n",
+      "sampleAnswer": "Large cost of fixing a missed defect.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "Small cost of fixing a missed defect.",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "The „O” rule in SOLID, tells us that:\n",
+      "sampleAnswer": "A class should be open for extensions and closed for modifications.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "A class should be open for modifications and closed for extensions.\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "What happens with the cost of maintaining a typical IT system?\n",
+      "sampleAnswer": "It grows with the passing of time.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "It does not grow with the passing of time.\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    },
+    {
+      "question": "Was today’s exam difficult?\n",
+      "sampleAnswer": "Yes, it was difficult.\n",
+      "correctUserAnswer": "",
+      "wrongUserAnswer": "No, it was not difficult.\n",
+      "partiallyCorrectUserAnswer": "",
+      "expertScorePCUA": 0
+    }
+  ]
+}
