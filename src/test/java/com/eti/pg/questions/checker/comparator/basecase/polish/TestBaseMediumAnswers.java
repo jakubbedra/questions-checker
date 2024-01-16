@@ -10,7 +10,7 @@ import org.junit.runners.MethodSorters;
 public abstract class TestBaseMediumAnswers extends BaseCaseTest {
 
     public TestBaseMediumAnswers(BaseAnswerComparator comparator) {
-        super(ComparatorTestConstants.MEDIUM_ANSWERS_PATH, comparator);
+        super(ComparatorTestConstants.PL_MEDIUM_ANSWERS_PATH, comparator);
     }
 
 }

@@ -10,7 +10,7 @@ import org.junit.runners.MethodSorters;
 public abstract class TestBaseLongAnswers extends BaseCaseTest {
 
     public TestBaseLongAnswers(BaseAnswerComparator comparator) {
-        super(ComparatorTestConstants.LONG_ANSWERS_PATH, comparator);
+        super(ComparatorTestConstants.PL_LONG_ANSWERS_PATH, comparator);
     }
 
 }

@@ -10,7 +10,7 @@ import org.junit.runners.MethodSorters;
 public abstract class TestBaseShortAnswers extends BaseCaseTest {
 
     public TestBaseShortAnswers(BaseAnswerComparator comparator) {
-        super(ComparatorTestConstants.SHORT_ANSWERS_PATH, comparator);
+        super(ComparatorTestConstants.PL_SHORT_ANSWERS_PATH, comparator);
     }
 
 }

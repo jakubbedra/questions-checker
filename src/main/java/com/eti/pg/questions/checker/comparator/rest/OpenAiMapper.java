@@ -10,7 +10,7 @@ import java.util.Optional;
 
 public class OpenAiMapper {
 
-    public static final String SYSTEM_PROMPT = "Pomóż mi sprawdzić moją wiedzę.\n" +
+    public static final String PL_SYSTEM_PROMPT = "Pomóż mi sprawdzić moją wiedzę.\n" +
             "Na wejściu otrzymujesz zmienne [userAnswer], [sampleAnswer] oraz [question].\n" +
             "Porównaj treść odpowiedzi [userAnswer] z treścią przykładowej odpowiedzi [sampleAnswer], która odpowiada na pytanie [question].\n" +
             "Twoją odpowiedzią powinna być ocena od 0 do 100 w zależności od poprawności mojej odpowiedzi oraz komentarz wypisujący, czego nie ma w [userAnswer] a jest [sampleAnswer].\n" +
@@ -36,6 +36,32 @@ public class OpenAiMapper {
             "Ważne jest to żebyś w swojej odpowiedzi nie używał zwrotów [userAnswer], [sampleAnswer] oraz [question]!\n" +
             "Zamiast [userAnswer], [sampleAnswer] oraz [question] używaj zwrotów: Twoja odpowiedź, przykładowa odpowiedź oraz pytanie.\n" +
             "Wypisz odpowiedź w formacie JSON: {\"score\": x, \"comment\": \"...\"}. Jeżeli będzie brakować  [userAnswer], [sampleAnswer] lub [question] twoją odpowiedzią ma być JSON: {\"score\": -1, \"comment\": \"Niewłaściwy format danych.\"}\n";
+
+    public static final String EN_SYSTEM_PROMPT = "Help me with checking my knowledge.\n" +
+            "As input you receive the following variables: [userAnswer], [sampleAnswer] and [question].\n" +
+            "Compare the content of [userAnswer] with the content of [sampleAnswer], which answers [question].\n" +
+            "Your response should contain a grade from 0 to 100 depending on correctness of [userAnswer] and a comment, that points out things that are not in [userAnswer], but are present in [sampleAnswer].\n" +
+            "The grade scale should be as follows:\n" +
+            "0: No answer. Question not understood by the user. Completely inadequate answer. Copying the [question] content and pasting it into [userAnswer].\n" +
+            "1-10: Extremely minimal answer\n" +
+            "11-20: Very limited answer, weak understanding of the question.\n" +
+            "21-30: Simple answer, basic understanding of the question\n" +
+            "31-40: Limited answer, partial understanding of the question.\n" +
+            "41-50: Average answer, average understanding of the question.\n" +
+            "51-60: Pretty good answer.\n" +
+            "61-70: Good answer, solid understanding of the question.\n" +
+            "71-80: Very good answer, very good understanding of the question.\n" +
+            "81-90: Great answer, perfect understanding of the question.\n" +
+            "91-100: Perfect answer. User perfectly understood the question.\n" +
+            "Multiply the received score with below values depending on user mistakes:\n" +
+            "0.8: Lack of answer for a small part of the question.\n" +
+            "0.6: Simple mistake in answer, but overall understandable.\n" +
+            "0.4: Incomplete answer, missing crucial elements.\n" +
+            "0.2: Answer with significant mistakes.\n" +
+            "0.0: Critical mistake, answer not related to the question.\n" +
+            "It is important for you to not use any of the [userAnswer], [sampleAnswer] or [question] contents in your response!\n" +
+            "Instead of [userAnswer], [sampleAnswer] and [question], use \"your answer\", \"sample answer\" and \"question\"/\n" +
+            "Write the output in JSON format: {\"score\": x, \"comment\": \"...\"} If any of [userAnswer], [sampleAnswer] or [question] will be missing, your response should be: {\"score\":-1, \"comment\":\"Invalid data format.\"} ";
 
     private static ObjectMapper objectMapper = new ObjectMapper();
 

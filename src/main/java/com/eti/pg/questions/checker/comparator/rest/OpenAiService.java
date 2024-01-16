@@ -26,7 +26,7 @@ public class OpenAiService {
         restTemplate.setRequestFactory(new BufferingClientHttpRequestFactory(new SimpleClientHttpRequestFactory()));
     }
 
-    public ChatGPTGetResponse sendAnswer(String prompt, String type) {
+    public ChatGPTGetResponse sendAnswer(String prompt, String type, String language) {
         ChatGPTGetRequest request = ChatGPTGetRequest
                 .builder()
                 .n(OpenAiConstants.MAX_COMPLETIONS)
@@ -34,7 +34,7 @@ public class OpenAiService {
                 .temperature(OpenAiConstants.TEMPERATURE)
                 .model(type.equals("basic") ? OpenAiConstants.BASIC_MODEL : OpenAiConstants.FINE_TUNED_MODEL)
                 .messages(List.of(
-                        ChatGPTMessage.builder().role("system").content(OpenAiMapper.SYSTEM_PROMPT).build(),
+                        ChatGPTMessage.builder().role("system").content(language.equals("pl") ? OpenAiMapper.PL_SYSTEM_PROMPT : OpenAiMapper.EN_SYSTEM_PROMPT).build(),
                         ChatGPTMessage.builder().role("user").content(prompt).build()
                 ))
                 .build();
