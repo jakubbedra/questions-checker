@@ -2,8 +2,8 @@ package com.eti.pg.questions.checker.comparator;
 
 public class ComparatorTestConstants {
 
-    public static final String BASE_PATH2 = "C:\\Users\\jakub\\IdeaProjects\\v2\\questions-checker\\src\\test\\java\\com\\eti\\pg\\questions\\checker\\";
-    public static final String BASE_PATH = "C:\\Users\\theKonfyrm\\IdeaProjects\\studilla-checker\\src\\test\\java\\com\\eti\\pg\\questions\\checker\\";
+    public static final String BASE_PATH = "C:\\Users\\jakub\\IdeaProjects\\v2\\questions-checker\\src\\test\\java\\com\\eti\\pg\\questions\\checker\\";
+    public static final String BASE_PATH2 = "C:\\Users\\theKonfyrm\\IdeaProjects\\studilla-checker\\src\\test\\java\\com\\eti\\pg\\questions\\checker\\";
 
     // base cases
     public static final String PL_LONG_ANSWERS_PATH = BASE_PATH + "comparator\\basecase\\polish\\data\\long-answers.json";
